@@ -107,21 +107,21 @@ Registration Form
 <?php
 
 $file=fopen("test.txt","a");
-fwrite($file,$fname);
-echo "<br/>";
-fwrite($file,$lname);
-echo "<br/>";
-fwrite($file,$gender);
-echo "<br/>";
-fwrite($file,$email);
-echo "<br/>";
-fwrite($file,$username);
-echo "<br/>";
-fwrite($file,$password);
-echo "<br/>";
-fwrite($file,$remail);
-echo "<br/>";
-echo "<br/>";
-echo "<br/>";
+
+fwrite($file, $fname . "\n");
+
+fwrite($file, $lname . "\n");
+
+fwrite($file, $gender . "\n");
+
+fwrite($file, $email . "\n");
+
+fwrite($file, $username . "\n");
+
+fwrite($file, $password . "\n");
+
+fwrite($file, $remail . "\n" . "\n" ."\n");
+
 fclose($file);
+
 ?>
