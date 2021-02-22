@@ -90,7 +90,7 @@ Registration Form
 <input type="email" id="remail" placeholder="Enter recovery email"required name="remail">
 
 
-    id="link" name="link">
+
 
 </fieldset>
    
